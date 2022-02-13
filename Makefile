@@ -1,9 +1,9 @@
 CPD=cp -r
 SDD=/usr/share/sddm/themes/
 LAF=~/.local/share/plasma/look-and-feel/
-SDNM=EOS-aurora-sddm
-SSTM=EOS.aurora
-AAIM=EOS.aurora/contents/splash/images
+SDNM=eos-sddm
+SSTM=eos
+AAIM=$(SSTM)/contents/splash/images
 SD=sudo
 CPSDDM="SDDM Theme"
 CPSST="Splash Screen"
