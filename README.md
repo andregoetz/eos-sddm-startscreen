@@ -1,22 +1,17 @@
-# Arch Aurora Borealis Startscreen
-Animated SDDM-Theme and Splashscreen for Archlinux (KDE)
+# EOS SDDM Startscreen
+Animated SDDM-Theme and Splashscreen (KDE) for EndeavourOS
 
 ## Installation
 To build and install from source run `sudo make install` inside the cloned directory.
 <pre>
-git clone https://github.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen.git
-cd Arch-Aurora-Borealis-Startscreen
+git clone https://github.com/andregoetz/eos-sddm-startscreen.git
+cd eos-sddm-startscreen
 sudo make install
 </pre>
 
-### AUR
-You can also install this package from the AUR as [arch-animated-startscreen](https://aur.archlinux.org/packages/arch-animated-startscreen/).
-
-Just run `yay -S arch-animated-startscreen` or `pacaur -S arch-animated-startscreen`.
-
 ## Modification
 ### SDDM-Theme
-To modify the SDDM-Theme edit [`arch-aurora-sddm/Main.qml`](https://github.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/blob/master/arch-aurora-sddm/Main.qml) and rebuild the package with `make install`.
+To modify the SDDM-Theme edit [`eos-sddm/Main.qml`](eos-sddm/Main.qml) and rebuild the package with `make install`.
 
 #### Changing Animation Durations
 Just edit the duration in millisecons which is here formatted <b><span style="color:red">bold and red</span></b> to adjust the duration.
@@ -92,14 +87,8 @@ If you have any questions or suggestions feel free to message me [via e-mail](ma
 
 ## Music
 You can optionally add music to the login screen. The preinstalled music is the background track of the [Steam](https://store.steampowered.com)-game [Besiege](https://store.steampowered.com/app/346010/Besiege/).
-  <audio id="audio_with_controls" controls src="https://raw.githubusercontent.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/master/arch-aurora-sddm/bgm.ogg" type="audio/ogg" style="width:100%;background-color:#FFFFFF;"></audio>
 
-## Images
+<audio id="audio_with_controls" controls src="eos-sddm/bgm.ogg" type="audio/ogg" style="width:100%;background-color:#FFFFFF;"></audio>
 
-<a><img style="width:100%;" src="https://raw.githubusercontent.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/master/arch-aurora-sddm/preview.png" alt="Splash Screen"  border="0" /></a>
-
-<a><img style="width:100%;" src="https://raw.githubusercontent.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/master/arch.aurora/contents/previews/splash.png" alt="Splash Screen"  border="0" /></a>
-
-<!--<a href="http://www.youtube.com/watch?feature=player_embedded&v=IZ8SqslVKdQ" target="_blank"><img style="width:80%;" src="https://raw.githubusercontent.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/master/arch.aurora/contents/previews/splash.png" alt="Splash Screen"  border="10" /></a>-->
-
-## Splash Demo
+## Preview
+![Preview](eos-sddm/preview.gif)
