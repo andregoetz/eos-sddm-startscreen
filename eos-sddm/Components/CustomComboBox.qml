@@ -26,7 +26,7 @@ import QtQuick 2.0
 
 FocusScope {
     id: container
-    width: 80; height: 30
+    width: 120; height: 30
 
     property color color: "white"
     property color borderColor: "#ababab"
